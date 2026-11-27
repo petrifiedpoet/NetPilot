@@ -8,6 +8,8 @@
     <string>NetPilot</string>
     <key>CFBundleExecutable</key>
     <string>NetPilot</string>
+    <key>CFBundleIconFile</key>
+    <string>AppIcon</string>
     <key>CFBundleIdentifier</key>
     <string>com.netpilot.app</string>
     <key>CFBundleInfoDictionaryVersion</key>

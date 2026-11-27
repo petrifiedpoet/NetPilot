@@ -25,6 +25,7 @@ chmod +x "$bin/mihomo"
 swiftc -O -swift-version 5 -target "$(uname -m)-apple-macosx14.0" \
     -sdk "$(xcrun --show-sdk-path --sdk macosx)" macos/*.swift -o "$bin/NetPilot"
 cp macos/Info.plist "$app/Contents/Info.plist"
+cp macos/AppIcon.icns "$app/Contents/Resources/AppIcon.icns"
 cp scripts/MIHOMO-LICENSE "$app/Contents/Resources/"
 cp target/release/netpilot-core "$bin/"
 codesign --force --deep --sign - "$app"
