@@ -1,0 +1,74 @@
+{
+  "version": 4,
+  "listen_addr": "127.0.0.1:7899",
+  "hotspot": {
+    "mode": "auto",
+    "interface": "en0",
+    "ssids": [],
+    "proxy_type": "http",
+    "proxy_port": 7890,
+    "proxy_host": ""
+  },
+  "domains": [
+    {
+      "id": "openai.com",
+      "pattern": "*.openai.com",
+      "hotspot": true
+    },
+    {
+      "id": "chatgpt.com",
+      "pattern": "*.chatgpt.com",
+      "hotspot": true
+    },
+    {
+      "id": "oaistatic.com",
+      "pattern": "*.oaistatic.com",
+      "hotspot": true
+    },
+    {
+      "id": "oaiusercontent.com",
+      "pattern": "*.oaiusercontent.com",
+      "hotspot": true
+    },
+    {
+      "id": "anthropic.com",
+      "pattern": "*.anthropic.com",
+      "hotspot": true
+    },
+    {
+      "id": "claude.ai",
+      "pattern": "*.claude.ai",
+      "hotspot": true
+    },
+    {
+      "id": "google.com",
+      "pattern": "*.google.com",
+      "hotspot": true
+    },
+    {
+      "id": "googleapis.com",
+      "pattern": "*.googleapis.com",
+      "hotspot": true
+    },
+    {
+      "id": "gstatic.com",
+      "pattern": "*.gstatic.com",
+      "hotspot": true
+    },
+    {
+      "id": "github.com",
+      "pattern": "*.github.com",
+      "hotspot": true
+    },
+    {
+      "id": "githubusercontent.com",
+      "pattern": "*.githubusercontent.com",
+      "hotspot": true
+    },
+    {
+      "id": "githubassets.com",
+      "pattern": "*.githubassets.com",
+      "hotspot": true
+    }
+  ]
+}
